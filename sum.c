@@ -6,9 +6,8 @@ int sum(int arr_len, int arr[]){
         int s = 0;
 	int f = 0;
         for(int i = 0; i < arr_len; i++){
-		printf("%d %d\n", arr[i], s);
                 if (f) s += arr[i];
-                else if (abs(arr[i]) == abs(mx)) { s += mx; f++;}
+                else if (abs(arr[i]) == abs(mx)) { s += mx; f = 1;}
         }
         return s;
 }
