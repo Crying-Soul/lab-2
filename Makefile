@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = -Wall -std=gnu99
 SRC = menu.c abs_max.c abs_min.c diff.c sum.c
 OBJ = $(SRC:.c=.o)
 OUT = menu

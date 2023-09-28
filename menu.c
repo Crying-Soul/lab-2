@@ -16,19 +16,19 @@ int main(){
         }
         switch (n){
                 case 0:
-                        printf("%d", abs_max(act_size, arr));
+                        printf("%d\n", abs_max(act_size, arr));
                         break;
                 case 1:
-                        printf("%d", abs_min(act_size, arr));
+                        printf("%d\n", abs_min(act_size, arr));
                         break;
                 case 2:
-                        printf("%d", diff(act_size, arr));
+                        printf("%d\n", diff(act_size, arr));
                         break;
                 case 3:
-                        printf("%d", sum(act_size, arr));
+                        printf("%d\n", sum(act_size, arr));
                         break;
                 default:
-                        printf("Данные некорректны");
+                        printf("%s\n", "Данные некорректны");
                         break;
         }
 	return 0;
