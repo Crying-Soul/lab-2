@@ -4,7 +4,7 @@
 #include "diff.h"
 #include "sum.h"
 
-void main(){
+int main(){
         int n;
         int arr[100];
 
@@ -31,4 +31,5 @@ void main(){
                         printf("Данные некорректны");
                         break;
         }
+	return 0;
 }
